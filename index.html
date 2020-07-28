@@ -1,26 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Solo - Creative Designs</title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="img/solo-images/favicon/favicon.ico">
+    <link rel="shortcut icon" href="img/solo-images/favicon/favicon.ico" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </head>
+
 <body>
-    
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+
+    <!-- home section -->
+    <section id="home">
+        <!-- background video -->
+        <video id="home-bg-video" poster="vidoes/solo.jpg" autoplay loop muted>
+            <source src="./videos/solo.mp4" type="video/mp4" />
+            <source src="./vidoes/solo.ogv" type="video/ogv" />
+            <source src="./vidoes/solo.webm" type="video/webm" />
+        </video>
+
+        <!-- overlay -->
+        <div id="home-overlay"></div>
+
+        <!-- home content -->
+        <div id="home-content">
+            <div id="home-content-inner" class="text-center">
+                <div id="home-heading">
+                    <h1 id="home-heading-1"> Digital</h1><br>
+                    <h1 id="home-heading-2">Creative <span>Agency</span></h1>
+                </div>
+
+                <div id="home-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                        electus quod voluptatum nam numquam commodi </p>
+                </div>
+                <div id="home-btn">
+                    <a class="btn btn-general btn-home" href="#about" role="button" title="start now">Start Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- angle down -->
+        <a href="#about" id="angle-down">
+            <i class="fa fa-angle-down"></i></a>
+
+    </section>
+    <!-- home ends -->
 </body>
+
 </html>

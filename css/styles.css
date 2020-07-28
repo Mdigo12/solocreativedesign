@@ -11,3 +11,65 @@
     White      : #FFFFFF
     Black      : #000000
 ============================== */
+
+/* ============================
+        preloader
+============================== */
+#preloader {
+  background-color: white;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
+#status {
+  background-image: url(../img/solo-images/preloader/preloader.gif);
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -35px;
+  margin-left: -35px;
+}
+
+/* ============================
+   home section
+============================== */
+#home-bg-video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background: url(../videos/solo.jpg) no-repeat;
+    background-size: cover;
+}
+#home-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+/* ============================
+
+============================== */
