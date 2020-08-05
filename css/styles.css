@@ -482,5 +482,33 @@ ul.social-list li:nth-child(3):hover a{
 }
 
 /* ============================
+       Statement
+============================== */
+#statement .content-box-lg{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#statement{
+    background: url("../img/solo-images/tech/tech-quote.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: center;
+}
+
+#tech-statement h3{
+    font-size: 24px;
+    color: #fff;
+    line-height: 45px;
+}
+
+#tech-statement p{
+    font-size: 14px;
+    color: #F4C613;
+    font-family: "Raleway", sans-serif;
+    margin-top: 8px;
+}
+
+/* ============================
 
 ============================== */
