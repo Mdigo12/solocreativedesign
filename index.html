@@ -13,14 +13,18 @@
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./js/owl -carousel/owl.carousel.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 
@@ -32,7 +36,7 @@
     <!-- home section -->
     <section id="home">
         <!-- background video -->
-        <video id="home-bg-video" poster="vidoes/solo.jpg" autoplay loop muted>
+        <video id="home-bg-video" poster="./videos/solo.jpg" autoplay loop muted>
             <source src="./videos/solo.mp4" type="video/mp4" />
             <source src="./vidoes/solo.ogv" type="video/ogv" />
             <source src="./vidoes/solo.webm" type="video/webm" />
@@ -59,12 +63,284 @@
             </div>
         </div>
 
-        <!-- angle down -->
-        <a href="#about" id="angle-down">
+        <!-- arrow down -->
+        <a href="#about" id="arrow-down">
             <i class="fa fa-angle-down"></i></a>
 
     </section>
     <!-- home ends -->
+
+    <!-- about section -->
+    <section id="about">
+        <!-- about 01 -->
+        <div id="about-01">
+            <div class="content-box-lg"> 
+                <div class="container">
+                    <div class="row">
+                        <!-- left heading -->
+                        <div class="col-md-6">
+                            <div id="about-left">
+                            <div class="vertical-heading">
+                                <h5>Who we are</h5>
+                                <h2>A <strong>story</strong> <br> about us</h2>
+
+                            </div>
+                        </div>
+                        </div>
+                        <!-- right side text -->
+                        <div class="col-md-6"> 
+                            <div id="about-right">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                     Quod ratione eius magnam laudantium assumenda nulla. 
+                                     Minima, dolores, explicabo dignissimos nostrum dolor perferendis 
+                                    nulla illo delectus soluta dolore omnis, eum similique?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Hic illum consequatur autem doloribus nisi minima? Sequi 
+                                    vel deleniti itaque suscipit quo fuga 
+                                    provident pariatur magnam, ipsa alias, eum illum. Aliquam.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div id="about-bottom">
+                            <img src="./img/solo-images/about/about.png" alt="about us" class="img-fluid">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- end of about-01 -->
+
+        <!-- about-02 -->
+        <div id="about-02">
+            <div class="content-box-md">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fa fa-rocket"></i>
+                                <h3>Mission</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Sed, adipisci animi amet expedita, itaque assumenda.</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fa fa-eye"></i>
+                                <h3>Vision</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Sed, adipisci animi amet expedita, itaque assumenda.</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fa fa-pencil"></i>
+                                <h3>Passion</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Sed, adipisci animi amet expedita, itaque assumenda.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- end about-02 -->
+    </section>
+    <!-- end of about section -->
+
+    <!-- our team -->
+    <section id="team">
+        <div class="content-box-lg">
+            <div class="container">
+                <div class="row">
+                    <!-- left side -->
+                    <div class="col-md-6">
+                        <div id="team-left">
+                        <div class="vertical-heading">
+                            <h5>Who we are</h5>
+                            <h2>Meet our<br> <strong>talented</strong> team</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Eaque repellat obcaecati nihil tempora suscipit ipsa quod
+                            itis maiores quas incidunt recusandae voluptatem illum 
+                            beatae aliquam non, id molestiae ea dicta!</p>
+                        </div>
+                    </div>
+                    <!-- Right side -->
+                    <div class="col-md-6">
+                        <div id="team-right">
+                            <div id="team-members" class="owl-carousel owl-theme">
+                                <!-- member-01 -->
+                                <div class="team-member">
+                                    <img src="./img/solo-images/team/team-1.jpg" alt="member img" class="img-fluid">
+                                
+                                    <div class="team-member-overlay">
+                                        <div class="team-member-info text-center">
+                                        <h6>Kevin Green</h6>
+                                        <p>Web Designer</p>
+                                    <ul class="social-list">
+                                        <li ><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li ><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li ><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <!-- member-02 -->
+                                 <div class="team-member">
+                                    <img src="./img/solo-images/team/team-2.jpg" alt="member img" class="img-fluid">
+                                
+                                    <div class="team-member-overlay">
+                                        <div class="team-member-info text-center">
+                                        <h6>Christian Cilinis</h6>
+                                        <p>Web Developer</p>
+                                    <ul class="social-list">
+                                        <li ><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li ><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li ><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <!-- member-03 -->
+                                 <div class="team-member">
+                                    <img src="./img/solo-images/team/team-3.jpg" alt="member img" class="img-fluid">
+                                
+                                    <div class="team-member-overlay">
+                                        <div class="team-member-info text-center">
+                                        <h6>Andrew Arvok</h6>
+                                        <p>Senoir developer</p>
+                                    <ul class="social-list">
+                                        <li ><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li ><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li ><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <!-- member-04 -->
+                                 <div class="team-member">
+                                    <img src="./img/solo-images/team/team-4.jpg" alt="member img" class="img-fluid">
+                                
+                                    <div class="team-member-overlay">
+                                        <div class="team-member-info text-center">
+                                        <h6>Harould Houdni</h6>
+                                        <p>Art Director</p>
+                                    <ul class="social-list">
+                                        <li ><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li ><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li ><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <!-- member-05 -->
+                                 <div class="team-member">
+                                    <img src="./img/solo-images/team/team-5.jpg" alt="member img" class="img-fluid">
+                                
+                                    <div class="team-member-overlay">
+                                        <div class="team-member-info text-center">
+                                        <h6>Angela Perry</h6>
+                                        <p>Manager</p>
+                                    <ul class="social-list">
+                                        <li ><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li ><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li ><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <!-- member-06 -->
+                                 <div class="team-member">
+                                    <img src="./img/solo-images/team/team-6.jpg" alt="member img" class="img-fluid">
+                                
+                                    <div class="team-member-overlay">
+                                        <div class="team-member-info text-center">
+                                        <h6>Kara Kulus</h6>
+                                        <p>Marketing & Sales</p>
+                                    <ul class="social-list">
+                                        <li ><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li ><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li ><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="progress-elements">
+                <!-- Progressbars -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Skill-01 -->
+                        <div class="skill">
+                            <h4>Web Design</h4>                            
+                            <div class="progress">
+                                <span class="progress-span sp-01">95%</span>
+                                <div class="progress-bar" role="progressbar" 
+                                style="width: 0%;" aria-valuenow="95" aria-valuemin="0"
+                                ria-valuemax="100"></div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Skill-02 -->
+                        <div class="skill">
+                            <h4>Photoshop/Illustrations</h4>
+                            <div class="progress">
+                                <span class="progress-span sp-02">75%</span>
+                                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Skill-03 -->
+                        <div class="skill">
+                            <h4>Web Development</h4>
+                            <div class="progress">
+                                <span class="progress-span sp-03">75%</span>
+                                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Skill-04 -->
+                        <div class="skill">
+                            <h4>Digital Marketing</h4>
+                            <div class="progress">
+                                <span class="progress-span sp-04">90%</span>
+                                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                </div>      
+                <!-- end of progress elements -->
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end of our team section -->
+
 </body>
 
 </html>
