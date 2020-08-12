@@ -29,13 +29,14 @@ $("#team-members").owlCarousel({
 $(function(){
     $("#progress-elements").waypoint(function () {
         $(".progress-bar").css(
-            "width",function(){return $(this).attr("aria-valuenow")+"%"});
+            "width",function(){return $(this)
+                .attr("aria-valuenow")+"%"})
         this.destroy();
         
     }, {offset:"bottom-in-view"});
 });
 
-$(function(){
+$(function(){    
         //  $(".progress-bar").css(
         //      "width",function(){return $(this).attr("aria-valuenow")+"%"});
 
@@ -44,7 +45,21 @@ $(function(){
     //          {width: $(this).attr("aria-valuenow") + "%"},1000);
     //  });
 });
+/* ============================
+    responsive tabs
+============================== */
+$(function(){
+    $("#services-tabs").responsiveTabs({
+              
+        
+    });
+});
+
+
 
 /* ============================
     
 ============================== */
+
+
+
