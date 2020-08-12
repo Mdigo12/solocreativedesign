@@ -693,6 +693,15 @@ services-02(responsive)
     font-size: 24px;
     margin-bottom: 30px;
 }
+/* ============================
+work section
+============================== */
+#work .vertical-heading{
+    margin-bottom: 50px;
+}
+.row.no-gutters[class*=col-]{
+    padding: 0;
+}
 
 /* ============================
 

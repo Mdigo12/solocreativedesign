@@ -55,6 +55,26 @@ $(function(){
     });
 });
 
+/* ============================
+    work section 
+============================== */
+$(window).on('load', function () {
+    //initialize isotope
+    $("#isotope-container").isotope({
+    });
+    // filter items on button click
+    $("#isotope-filters").on('click', 'button', function(){
+        //get filter value
+        var filterValue=$(this).attr('data-filter');
+       //filter work 
+       $("#isotope-container").isotope({
+           filter:filterValue
+    });
+    //active button
+    $("#isotope-filters").find('.active').removeClass('active');
+    $(this).addClass('active');
+    });
+});
 
 
 /* ============================
