@@ -702,7 +702,33 @@ work section
 .row.no-gutters[class*=col-]{
     padding: 0;
 }
-
+/* Filter CSS */
+#isotope-filters{
+    margin-bottom: 10px;
+    padding: 20px 25px 20px 0px;
+}
+#isotope-filters button{
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    box-shadow: none;
+    padding-right: 35px;
+}
+#isotope-filters button span{
+    display: block;
+    padding-bottom: 5px;
+    transition: border-color 0.4s ease-in-out;
+    -webkit-transition: border-color 0.4s ease-in-out;
+    -moz-transition: border-color 0.4s ease-in-out;
+    -ms-transition: border-color 0.4s ease-in-out;
+    -o-transition: border-color 0.4s ease-in-out;
+}
+#isotope-filters button.active span{
+    color: #F4C613; 
+    border-bottom: 3px solid #F4C613;
+}
 /* ============================
 
 ============================== */
