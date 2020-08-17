@@ -81,12 +81,17 @@ $(window).on('load', function () {
 ============================== */
 $(function(){
     $("#work").magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image',
-        gallery:{
-            enabled:true
-        }
-        // other options
+        delegate: 'a',
+		type: 'image',
+		removalDelay: 300,
+		callbacks: {
+			beforeOpen: function () {
+				this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure magnificPopup__Animus');
+				this.st.mainClass = this.st.el.attr('data-effect');
+			}
+		},
+		closeOnContentClick: true,
+		midClick: true
       });
 });
 
