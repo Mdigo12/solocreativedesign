@@ -82,18 +82,26 @@ $(window).on('load', function () {
 $(function(){
     $("#work").magnificPopup({
         delegate: 'a',
-		type: 'image',
-		removalDelay: 300,
-		callbacks: {
-			beforeOpen: function () {
-				this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure magnificPopup__Animus');
-				this.st.mainClass = this.st.el.attr('data-effect');
-			}
-		},
-		closeOnContentClick: true,
-		midClick: true
+		type: 'image'		
       });
 });
+
+/* ============================
+Testimonials -owl slidding feature
+============================== */
+
+$(function(){
+    $("#testimonials-slider").owlCarousel({
+        items:1,
+        loop:true,
+        nav: true,
+        navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+        dots:false,
+        autoplay:true,
+        smartSpeed:700,
+        autoplayHoverPause:true,
+    });
+    });
 
 /* ============================
     

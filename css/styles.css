@@ -697,6 +697,9 @@ services-02(responsive)
 /* ============================
        work section
 ============================== */
+#work{
+    padding-bottom: 160px;
+}
 #work .vertical-heading{
     margin-bottom: 50px;
 }
@@ -837,6 +840,54 @@ services-02(responsive)
 .work-item:hover .work-item-overlay{
     opacity: 1;
 }
+/* ============================
+ Testimonial section
+============================== */
+#testimonials{
+    background: #f4f4f4;
+    padding-bottom: 45px;
+    overflow: visible;
+    }
+#testimonials .vertical-heading{
+    padding: 60px 0;
+    margin-bottom:80px;
+}
+#testimonials-slider{
+    background: #F4C613;
+    top:-128px;
+}
+#testimonials-slider .testimonial{
+    padding:20px 45px 0 45px;
+    color: #fff;
+}
+.testimonial .row{
+    margin-bottom:25px;
+}
+.testimonial h3{
+    font-size: 32px;
+    line-height: 35px;
+}
+.testimonial .stars{
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+}
+.testimonial p{
+    line-height: normal;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.testimonial .author .author-name-des{
+    width: 106px;
+    margin-top: 25px;
+    text-align: left;
+}
+.author .author-name-des p{
+    margin: 0;
+}
+
+
 /* ============================
 
 ============================== */
