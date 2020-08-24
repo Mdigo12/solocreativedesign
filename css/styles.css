@@ -1000,7 +1000,67 @@ Pricing
  .pricing-table.black:hover{
      background: #F4C613;
  }
+ /* ============================
+      statistics section
+============================== */
+#statistics .content-box-md {
+    background: rgba(0, 0, 0, 0.8);
+}
 
+#statistics {
+    background: url("../img/solo-images/stats/stats-bg.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: center;
+}
+#statistics .vertical-heading h2{
+    color: #fff;
+}
+#statistics .vertical-heading{
+    margin-bottom: 50px;
+}
+.stats-item{
+    background: rgb(61, 68, 68, 0.6);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    min-height: 178px;
+    padding: 25px 50px;
+   
+}
+.stats-item i{
+    font-size: 42px;
+    color: #F4C613;
+    margin: 0 0 6px 0;
+    transition: all 400ms;
+    -webkit-transition: all 400ms;
+    -moz-transition: all 400ms;
+    -ms-transition: all 400ms;
+    -o-transition: all 400ms;
+}
+.stats-item h3{
+    font-size: 32px;
+    color: #FFF;
+    margin: 5px 0 5px 0;
+}
+.stats-item p{
+    color: #fff;
+    margin: 0 ;
+}
+.stats-item:hover{
+    background: #F4C613;    
+}
+.stats-item:hover i{
+    color: #212221;
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
 /* ============================
 
 ============================== */
